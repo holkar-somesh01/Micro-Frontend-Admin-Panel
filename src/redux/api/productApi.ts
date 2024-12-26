@@ -22,7 +22,7 @@ export interface IProduct {
 export const productApi = createApi({
     reducerPath: 'productApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'https://product-crud-micro-service.vercel.app/api/products',
+        baseUrl: 'https://micro-service-product-server-1jitncfhf.vercel.app/api/products',
         credentials: 'include',
     }),
     tagTypes: ['product'],
